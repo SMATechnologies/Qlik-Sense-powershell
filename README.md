@@ -26,7 +26,7 @@ Example:
 powershell.exe -ExecutionPolicy Bypass -File "C:\QlikSubmitTask.ps1" -serverUrl "https://srvtst.acme.com" -QlikUser "user@acme.com" -TaskId "xxxxxxxxx-xxxx-xxxx-xxx-xxxxxxxxxxxx" -PollingInterval 5
 
 ```  
-Script exit code:
+<b>Script exit code:</b>
   * 0 = Script executed correclty, Task submitted and tracked, see below for Qlik Task completion status
   * 100 = Error in Task submission, Task is not submitted
   * Not 0 = Other errors
