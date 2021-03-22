@@ -1,5 +1,5 @@
 # QlikSense Tasks - Powershell
-This scripts submits QlickSense ETL Task on a Qlik Sense Scheduler Service (QSS).
+This scripts submits a QlickSense ETL Task on a Qlik Sense Scheduler Service (QSS).
 
 The script submits the Task and then polls for the status until the completion.
 
